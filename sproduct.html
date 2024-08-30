@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <section id="header">
+      <a href="#"><img src="Asset/logo/bakeLogo.png" class="logo" alt="" /></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+          <li id="lg-bag">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+          </li>
+          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+    <!-- Product Details -->
+    <section id="prodetails" class="section-p1">
+      <div class="single-pro-image">
+        <img src="Asset/product/biscuits.jpg" width="100%" id="mainImg" />
+        <div class="small-img-group">
+          <div class="small-img-col">
+            <img
+              src="Asset/product/choco bite.jpg"
+              width="100%"
+              class="small-img"
+            />
+          </div>
+          <div class="small-img-col">
+            <img
+              src="Asset/product/croissant.jpg"
+              width="100%"
+              class="small-img"
+            />
+          </div>
+          <div class="small-img-col">
+            <img
+              src="Asset/product/choco muiffins.jpg"
+              width="100%"
+              class="small-img"
+            />
+          </div>
+          <div class="small-img-col">
+            <img
+              src="Asset/product/cupcake.jpg"
+              width="100%"
+              class="small-img"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="single-pro-details">
+        <h6>Home/ Snacks</h6>
+        <h4 class="product-name">Choco Bite</h4>
+        <h2 class="product-price">&#2547; 180</h2>
+        <select>
+          <option>Select Size</option>
+          <option>Small</option>
+          <option>Medium</option>
+          <option>Large</option>
+        </select>
+        <input type="number" value="1" />
+        <button class="normal">Add to cart</button>
+        <h4>Product Details</h4>
+        <p class="product-details">
+          Discover the classic taste of our freshly baked Biscuits! Crisp on the
+          outside and tender on the inside, these golden delights are perfect
+          for any time of the day. Made with high-quality ingredients, our
+          biscuits offer a buttery flavor with a hint of sweetness that pairs
+          perfectly with your favorite tea or coffee. Whether enjoyed as a snack
+          or a light breakfast, our Biscuits are sure to become a staple in your
+          pantry. Treat yourself to the comforting goodness of homemade flavor!
+        </p>
+      </div>
+    </section>
+    <!-- Other products -->
+    <section id="product1" class="section-p1">
+      <h2>Other Products</h2>
+      <p>Browse other products on menu</p>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="Asset/product/vanilla donut.jpg" alt="" />
+          <div class="des">
+            <span>Snacks</span>
+            <h5>Choco Bite</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>&#2547; 120</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-plus" id="cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="Asset/product/muffin.jpg" alt="" />
+          <div class="des">
+            <span>Snacks</span>
+            <h5>Muffins</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>&#2547; 170</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-plus" id="cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="Asset/product/choco muiffins.jpg" alt="" />
+          <div class="des">
+            <span>Snacks</span>
+            <h5>Choco Muffins</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>&#2547; 200</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-plus" id="cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="Asset/product/duo falvor donut.jpg" alt="" />
+          <div class="des">
+            <span>Desert</span>
+            <h5>Duo Flavor Donut</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>&#2547; 260</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-plus" id="cart"></i></a>
+        </div>
+      </div>
+    </section>
+    <!-- Newsletter  -->
+    <section id="newsletter" class="section-p1 section-m1">
+      <div class="newstext">
+        <h4>Sign up to order</h4>
+        <p>
+          Get E-mail and updates for latest news and <span>special offers</span>
+        </p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your E-mail address" />
+        <button class="normal">Sign up</button>
+      </div>
+    </section>
+    <footer class="section-p1">
+      <div class="col">
+        <img src="Asset/logo/bakeLogo.png" alt="" class="flogo" />
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> 135, elephant road,Dhaka-1205</p>
+        <p><strong>Phone:</strong> +8801716117178</p>
+        <p><strong>Hours:</strong> 10:00 AM-10:00 PM, Sat-Thu</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#">Delivery information</a>
+        <a href="#">Privacy and policy</a>
+        <a href="#">Terms and Conditions</a>
+        <a href="#">Contact us</a>
+      </div>
+      <div class="col">
+        <h4>My account</h4>
+        <a href="#">Sign in</a>
+        <a href="#">View cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+      <div class="col install">
+        <h4>Install app</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="Asset/pay/app.jpg" alt="" />
+          <img src="Asset/pay/play.jpg" alt="" />
+        </div>
+        <p>Secured Payment Gateway</p>
+        <img src="Asset/pay/pay.png" alt="" />
+      </div>
+
+      <div class="copyright">
+        <p>©2024, Bijoy Solution -HTML CSS JS Cloud Kithcen Template</p>
+      </div>
+    </footer>
+  </body>
+  <script src="sproductscript.js"></script>
+</html>
